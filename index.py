@@ -37,8 +37,8 @@ def convert_and_resize_images(input_folder, output_folder, size):
             os.remove(temp_jpg_path)  # Clean up temporary file
 
 if __name__ == "__main__":
-    input_folder = r'D:\projects\drive-download-20241021T042303Z-001\Nutraceutical\HDPE Jar'
-    output_folder = r'D:\projects\drive-download-20241021T042303Z-001\Nutraceutical\HDPE Jar\new'
+    input_folder = r'D:\projects\komal_packaging_assets\Pharmaceuitical\Scoops'
+    output_folder = r'D:\projects\komal_packaging_assets\Pharmaceuitical\Scoops_resized'
     size = (237, 257)
 
     convert_and_resize_images(input_folder, output_folder, size)
